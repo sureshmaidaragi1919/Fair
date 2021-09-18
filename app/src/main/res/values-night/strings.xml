@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Fair</string>
-    <string name="dob_label">Date of birth</string>
+    <string name="dob_label">Gender</string>
     <string name="gender_label">Gender</string>
     <string name="email_label">Email:</string>
     <string name="time_zone_label">Time zone</string>
