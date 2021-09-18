@@ -43,7 +43,7 @@ class CandidateDetailsFragment : Fragment() {
                 }
 
                 ERROR ->
-                    Toast.makeText(activity, it.message, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(activity, it.message, Toast.LENGTH_LONG).show()
 
                 LOADING -> {
                     progress_bar.visibility = View.VISIBLE

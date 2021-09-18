@@ -1,6 +1,5 @@
 package com.mobile.fair.view.candidates
 
-import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.ViewModel
 import com.mobile.fair.data.repository.CandidateRepository
 import dagger.hilt.android.lifecycle.HiltViewModel

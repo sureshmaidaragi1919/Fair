@@ -53,7 +53,7 @@ class CandidateListFragment : Fragment(), CandidateAdapter.candidateItemListener
                     if (!it.data.isNullOrEmpty()) candidateAdapter.setItems(ArrayList(it.data))
                 }
                 Resource.Status.ERROR ->
-                    Toast.makeText(requireContext(), it.message, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(requireContext(), it.message, Toast.LENGTH_LONG).show()
 
                 Resource.Status.LOADING ->
                     progress_bar.visibility = View.VISIBLE
